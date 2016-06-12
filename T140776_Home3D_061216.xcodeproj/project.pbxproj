@@ -16,6 +16,7 @@
 		98E3F2501D0D37E8003F88DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98E3F24E1D0D37E8003F88DC /* LaunchScreen.storyboard */; };
 		98E3F25B1D0D37E9003F88DC /* T140776_Home3D_061216Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E3F25A1D0D37E9003F88DC /* T140776_Home3D_061216Tests.swift */; };
 		98E3F2661D0D37E9003F88DC /* T140776_Home3D_061216UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E3F2651D0D37E9003F88DC /* T140776_Home3D_061216UITests.swift */; };
+		98E3F2741D0D383A003F88DC /* RandomFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E3F2731D0D383A003F88DC /* RandomFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		98E3F2611D0D37E9003F88DC /* T140776_Home3D_061216UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = T140776_Home3D_061216UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98E3F2651D0D37E9003F88DC /* T140776_Home3D_061216UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T140776_Home3D_061216UITests.swift; sourceTree = "<group>"; };
 		98E3F2671D0D37E9003F88DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98E3F2731D0D383A003F88DC /* RandomFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RandomFunction.swift; path = ../RandomFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				98E3F24C1D0D37E8003F88DC /* Assets.xcassets */,
 				98E3F24E1D0D37E8003F88DC /* LaunchScreen.storyboard */,
 				98E3F2511D0D37E8003F88DC /* Info.plist */,
+				98E3F2731D0D383A003F88DC /* RandomFunction.swift */,
 			);
 			path = T140776_Home3D_061216;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			files = (
 				98E3F2461D0D37E8003F88DC /* GameScene.swift in Sources */,
 				98E3F2481D0D37E8003F88DC /* GameViewController.swift in Sources */,
+				98E3F2741D0D383A003F88DC /* RandomFunction.swift in Sources */,
 				98E3F2421D0D37E8003F88DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
