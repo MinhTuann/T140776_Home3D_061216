@@ -212,8 +212,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         self.physicsWorld.gravity = CGVectorMake(0.0, -4.0)
         
-        let randomPositionX = CGFloat.random(min: -10, max: 10)
-        let randomPositionX2 = CGFloat.random(min: -10, max: 10)
+        let randomPositionX = CGFloat.random(min: -self.frame.width/12, max: self.frame.width/12)
+        let randomPositionX2 = CGFloat.random(min: -self.frame.width/12, max: self.frame.width/12)
         
         let locaBird = Bird.position
         let locaBird2 = Bird2.position
@@ -238,12 +238,12 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 if (locaBird.y - 60) < location.y && location.y < (locaBird.y + 60) && (locaBird.x - 60) < location.x && location.x < (locaBird.x + 60) {
                     
                     Bird.physicsBody?.velocity = CGVectorMake(0.0, 0.0)
-                    Bird.physicsBody?.applyImpulse(CGVectorMake(randomPositionX, 20.0))
+                    Bird.physicsBody?.applyImpulse(CGVectorMake(randomPositionX, self.frame.height/11))
                 }
                 if (locaBird2.y - 60) < location.y && location.y < (locaBird2.y + 60) && (locaBird2.x - 60) < location.x && location.x < (locaBird2.x + 60) {
                     
                     Bird2.physicsBody?.velocity = CGVectorMake(0.0, 0.0)
-                    Bird2.physicsBody?.applyImpulse(CGVectorMake(randomPositionX2, 20.0))
+                    Bird2.physicsBody?.applyImpulse(CGVectorMake(randomPositionX2, self.frame.height/11))
                 }
                     
                 else {
@@ -262,14 +262,14 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                     if (locaBird.y - 60) < location.y && location.y < (locaBird.y + 60) && (locaBird.x - 60) < location.x && location.x < (locaBird.x + 60) {
                         
                         Bird.physicsBody?.velocity = CGVectorMake(0.0, 0.0)
-                        Bird.physicsBody?.applyImpulse(CGVectorMake(randomPositionX, 20.0))
+                        Bird.physicsBody?.applyImpulse(CGVectorMake(randomPositionX, self.frame.height/11))
                         
                     }
                     
                     if (locaBird2.y - 60) < location.y && location.y < (locaBird2.y + 60) && (locaBird2.x - 60) < location.x && location.x < (locaBird2.x + 60) {
                         
                         Bird2.physicsBody?.velocity = CGVectorMake(0.0, 0.0)
-                        Bird2.physicsBody?.applyImpulse(CGVectorMake(randomPositionX2, 20.0))
+                        Bird2.physicsBody?.applyImpulse(CGVectorMake(randomPositionX2, self.frame.height/11))
                     }
                         
                     else {
